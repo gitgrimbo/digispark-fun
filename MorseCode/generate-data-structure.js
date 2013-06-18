@@ -13,6 +13,7 @@ strings (I have seen this).
 Redirect this output to a file, or copy from the console.
 
 Run using Rhino:
+
     java -jar /path/to/rhino/js.jar -opt -1 generate-data-structure.js > MorseLib.h
 */
 
@@ -173,7 +174,7 @@ function printAll() {
 
     p("");
     printArrayAsDigisparkStructure("imA_TO_Z", mA_TO_Z, addComments.bind(null, 65));
-    printArrayAsDigisparkStructure("imZERO_TO_NINE", mZERO_TO_NINE, addComments.bind(null, 65));
+    printArrayAsDigisparkStructure("imZERO_TO_NINE", mZERO_TO_NINE, addComments.bind(null, 48));
     printArrayAsDigisparkStructure("imPUNCTUATION", mPUNCTUATION, addPuncComments);
 
     p("");
