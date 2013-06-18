@@ -13,3 +13,11 @@ Some punctuation:
     ".,?'!/()&:;=+-_\"$@"
 
 In between each message, the LED will flash rapidly 10 times.
+
+#### Generating the header file
+
+(More comments in the JS file)
+
+Run using Rhino:
+
+    java -jar /path/to/rhino/js.jar -opt -1 generate-data-structure.js > MorseLib.h
